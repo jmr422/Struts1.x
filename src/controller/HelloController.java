@@ -16,6 +16,7 @@ public class HelloController extends Action
 			HttpServletResponse response) throws Exception {
 
 		String name= request.getParameter("name");
+		System.out.println("name");
 		
 		request.setAttribute("res", "Hello..."+name);
 		
